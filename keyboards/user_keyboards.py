@@ -25,7 +25,7 @@ def get_note_operations_kb(note_id):
         [InlineKeyboardButton(text="edit", callback_data=f'edit_note: {note_id}'),
          InlineKeyboardButton(text="delete", callback_data=f'delete_note: {note_id}')],
         [InlineKeyboardButton(text="last edit", callback_data=f'last_edit: {note_id}')],
-        [InlineKeyboardButton(text="add user", callback_data=f'add_user: {note_id}')],
+        # [InlineKeyboardButton(text="add user", callback_data=f'add_user: {note_id}')],
         [InlineKeyboardButton(text="🔙", callback_data='back_from_note')]
     ])
     return ikb
