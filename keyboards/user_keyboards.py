@@ -1,7 +1,7 @@
 from aiogram.types import ReplyKeyboardMarkup, ReplyKeyboardRemove, KeyboardButton, InlineKeyboardMarkup, \
     InlineKeyboardButton, CallbackQuery
 from aiogram.utils.keyboard import KeyboardBuilder, InlineKeyboardBuilder
-from mongo_db_op import database_operations
+from db_op import database_operations
 
 
 def get_notes_kb(username: str) -> InlineKeyboardMarkup:

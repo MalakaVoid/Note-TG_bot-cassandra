@@ -3,7 +3,7 @@ import os
 import asyncio
 from dotenv import load_dotenv
 from handlers.user_handlers import router as router_user_handlers
-from mongo_db_op import database_operations
+from db_op import database_operations
 # import logging
 
 async def main() -> None:

@@ -5,7 +5,7 @@ from aiogram.types import ReplyKeyboardMarkup, ReplyKeyboardRemove, KeyboardButt
     InlineKeyboardButton, CallbackQuery
 from aiogram.fsm.context import FSMContext
 from aiogram.filters.command import CommandStart, Command
-from mongo_db_op import database_operations
+from db_op import database_operations
 from keyboards import user_keyboards
 import datetime
 
